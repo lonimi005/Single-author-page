@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    word-wrap: break-word;
+    word-break: break-word;
+    color: #1e1e1e;
+    background-color: #f2efe4;
+    height: 100%;
+    max-height: 100%;
+}
+
+.global-cover {
+    background-image: url(https://genki-medium.fueko.net/content/images/size/w1600/2021/06/tracey-hocking-L0zoHrcMx8M-unsplash.jpg);
+    mask-image: linear-gradient(to top,transparent,rgba(0,0,0,.013)8.1%,rgba(0,0,0,.049)15.5%,rgba(0,0,0,.104)22.5%,rgba(0,0,0,.175)29%,rgba(0,0,0,.259)35.3%,rgba(0,0,0,.352)41.2%,rgba(0,0,0,.45)47.1%,rgba(0,0,0,.55)52.9%,rgba(0,0,0,.648)58.8%,rgba(0,0,0,.741)64.7%,rgba(0,0,0,.825)71%,rgba(0,0,0,.896)77.5%,rgba(0,0,0,.951)84.5%,rgba(0,0,0,.987)91.9%,#000);
+    position: absolute;
+    z-index: -1;
+    height: 60vh;
+    opacity: .4;
+    background: no-repeat center center/cover;
+    background-color: rgba(0, 0, 0, 0);
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-origin: padding-box;
+    background-clip: border-box;
+}
+
+main {
+    display: block;
+}
+
+.global-main {
+    flex: 1 0 auto;
+    width: 100%;
+    max-width: var(--max-width-global-wrap);
+    margin: 0 auto;
+}
+
+.author-section {
+    margin-bottom: 5vh;
+    width: 100%;
+    margin: 6vh auto 8vh;
+    text-align: center;
+}
