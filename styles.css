@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 
 body {
     font-family: 'Nunito Sans', sans-serif;
@@ -31,6 +32,18 @@ body {
     background-clip: border-box;
 }
 
+.global-wrap {
+    height: 100%;
+}
+
+.global-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+    height: 100%;
+}
+
 main {
     display: block;
 }
@@ -38,7 +51,7 @@ main {
 .global-main {
     flex: 1 0 auto;
     width: 100%;
-    max-width: var(--max-width-global-wrap);
+    max-width: 1620px;
     margin: 0 auto;
 }
 
@@ -47,4 +60,59 @@ main {
     width: 100%;
     margin: 6vh auto 8vh;
     text-align: center;
+}
+
+.author-image {
+    width: 160px;
+    height: 160px;
+    margin: 0 auto 20px;
+}
+
+.author-image img {
+    position: relative;
+    border-radius: 100%;
+}
+
+.global-image img {
+    position: relative;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+img {
+    border-style: none;
+}
+
+.global-title-large {
+    font-family: 'EB Garamond', serif;
+    font-size: 68px;
+    font-weight: 400;
+    width: 100%;
+    line-height: 1.1;
+}
+
+.archive-counter {
+    font-size: 32px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    font-style: italic;
+    display: block;
+    margin: .6vh auto 0;
+}
+
+.archive-social {
+    margin-top: 3vh;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 5vh auto 0;
+    padding: 10px;
+    border: 1px solid #bfbeb3;
+    border-radius: 100px;
+    background-color: #f2efe4;
 }
